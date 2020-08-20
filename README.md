@@ -6,3 +6,6 @@ To build this
  # mvn clean package
 To run this
  # mvn azure-functions:run
+
+# Deployment to Azure
+Current values are OS - Windows and Region - WestUS, if you need to make change update pom.xml or parameterize the pom.xml file to load from environment variables.
