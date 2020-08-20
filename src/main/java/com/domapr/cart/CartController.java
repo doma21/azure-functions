@@ -17,7 +17,7 @@ public class CartController {
      * 1. curl -d "HTTP Body" {your host}/api/CartController
      * 2. curl {your host}/api/CartController?name=HTTP%20Query
      */
-    @FunctionName("CartController")
+    @FunctionName("cartAPI")
     public HttpResponseMessage run(
             @HttpTrigger(name = "req", methods = {HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS) 
             HttpRequestMessage<Optional<CartData>> request,
